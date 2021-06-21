@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 from ncclient import manager
 from  lxml import etree
+host='1.1.1.1'
 interface='GigabitEthernet0/0/0/0'
 all_if_filter = '''<interface-configurations xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-ifmgr-cfg">
    <interface-configuration>
