@@ -1,3 +1,7 @@
+# il router deve supportare il filtro xpath
+# in hello response o in capability response ci deve essere:
+# <nc:capability>urn:ietf:params:netconf:capability:xpath:1.0</nc:capability>
+
 #!/usr/bin/python3
 from ncclient import manager
 host='2.2.2.2'
