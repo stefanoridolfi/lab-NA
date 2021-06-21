@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<get>
+<filter>
+<ospf xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-ipv4-ospf-oper">
+<processes>
+<process>
+<process-name>1</process-name>
+<default-vrf>
+<areas>
+<area>
+<area-id>1</area-id>
+<interfaces/>
+</area>
+</areas>
+</default-vrf>
+</process>
+</processes>
+</ospf>
+</filter>
+</get>
